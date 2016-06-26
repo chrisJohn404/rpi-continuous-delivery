@@ -9,3 +9,6 @@ Various Notes:
  https://docs.travis-ci.com/user/deployment/releases
  - To NPM:
  https://docs.travis-ci.com/user/deployment/npm
+
+ - Starting with test project:
+ http://www.instructables.com/id/Easy-NodeJS-WebSockets-LED-Controller-for-Raspberr/step5/Run-the-server/

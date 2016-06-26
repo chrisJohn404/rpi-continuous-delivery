@@ -18,7 +18,7 @@ io.sockets.on('connection', function (socket) { //gets called whenever a client 
         var buf = new Buffer(1); //creates a new 1-byte buffer
         buf.writeUInt8(brightness, 0); //writes the pwm value to the buffer
         // serialPort.write(buf); //transmits the buffer to the arduino
-
+        console.log('Recieved Data!!', brigntness);
         io.sockets.emit('led', {value: brightness}); //sends the updated brightness to all connected clients
     });
 });
