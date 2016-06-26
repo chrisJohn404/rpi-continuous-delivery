@@ -1,0 +1,24 @@
+{
+  "name": "rpi-continuous-delivery",
+  "version": "1.0.0",
+  "description": "This is a test project aimed at figuring out what Travis CI can do and exploring its capabilities in regards to the raspberry pi 3",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/chrisJohn404/rpi-continuous-delivery.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/chrisJohn404/rpi-continuous-delivery/issues"
+  },
+  "homepage": "https://github.com/chrisJohn404/rpi-continuous-delivery#readme",
+  "dependencies": {
+    "express": "^4.14.0",
+    "serialport": "^3.1.2",
+    "socket.io": "^1.4.8"
+  }
+}
