@@ -1,7 +1,7 @@
-express = require('express');  //web server
-app = express();
-server = require('http').createServer(app);
-io = require('socket.io').listen(server);	//web socket server
+var express = require('express');  //web server
+var app = express();
+var server = require('http').createServer(app);
+var io = require('socket.io').listen(server);	//web socket server
 
 server.listen(8080); //start the webserver on port 8080
 app.use(express.static('public')); //tell the server that ./public/ contains the static webpages
