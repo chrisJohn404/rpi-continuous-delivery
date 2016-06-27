@@ -3,7 +3,7 @@ var app = express();
 var server = require('http').createServer(app);
 var io = require('socket.io').listen(server);	//web socket server
 
-server.listen(8080); //start the webserver on port 8080
+server.listen(8081); //start the webserver on port 8080
 app.use(express.static('public')); //tell the server that ./public/ contains the static webpages
 
 var SerialPort = require("serialport").SerialPort
